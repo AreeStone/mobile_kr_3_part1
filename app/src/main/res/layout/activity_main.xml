@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/firstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/lastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия" />
+
+    <EditText
+        android:id="@+id/flightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Рейс" />
+
+    <EditText
+        android:id="@+id/adultCountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество взрослых билетов"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/childCountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Количество детских билетов"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/priceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цена одного билета"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Оформить заказ" />
+</LinearLayout>
